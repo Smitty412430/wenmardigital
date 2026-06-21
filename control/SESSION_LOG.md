@@ -4,6 +4,22 @@
 
 ---
 
+## 2026-06-21 — AMBER Personal — Email notification popup ported from Business
+- Ollama check: latest stable v0.30.10 (June 17). Holding at v0.30.4 — no change.
+- Ran full project health check — all apps and deployed sites confirmed working.
+- Bank statement analyser root URL 404 (no index.html) — not urgent, noted.
+- Ported email notification warning popup from AMBER Business to AMBER Personal.
+- Fixed nav bug — "Set up now" was pointing to 'settings' (does not exist in Personal), corrected to 'users'.
+- Committed to AMBER-Personal repo (f155ff5).
+
+**Next session priorities:**
+- Email alert end-to-end test with real SMTP (both apps)
+- Clean install full test before Lauren demo
+- "Don't show this again" on Ollama version modal
+- Add index.html to bank statement analyser repo (low priority)
+
+---
+
 ## 2026-06-21 — ALL PROJECTS — Master control files created
 - Ollama check: latest stable v0.30.8 (June 12). Holding at v0.30.4 — no change.
 - Discussed encryption at rest for AMBER suite. Not legally required for Green tier. FileVault + local storage defensible. Revisit for Red tier during legal sign-off.
