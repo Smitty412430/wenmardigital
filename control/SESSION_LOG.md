@@ -40,3 +40,8 @@
 - OMS Wilton and DocVault Wilton deployed to London via TeamViewer.
 - Bank statement analyser tools deployed.
 - WenMar_Handover.docx produced as platform-agnostic context document.
+
+## 2026-06-21 — CLOSING NOTE
+- SNK: service sticker print function still has blank page issue. Client to test current HTML as-is before any permanent build is considered.
+- WenMar Digital: all projects at standstill pending in-person meeting with Wendy this week.
+- Master PROJECT_CONTROL.md and SESSION_LOG.md created and committed to wenmardigital/control/.
