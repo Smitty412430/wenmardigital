@@ -111,3 +111,17 @@
 ## 2026-06-23 — Wenmar-Demos — AMBER Care demo update
 - Updated All Items popup to include Snapshot export explanation (commit 5bdfbba)
 - Snapshot popup retained on dashboard stat card as secondary entry point
+
+## 2026-06-23 — AMBER Care — Category mapping fix + Ollama parse test
+- Fixed PERSONAL_TYPE_TO_CATEGORY in utils.js — replaced old Personal mappings with care worker credential categories
+- Bulk upload test with 6 Deanna Mitchell test docs — all parsed correctly:
+  - NDIS Worker Screening Check → Compliance Checks
+  - National Police Check → Compliance Checks
+  - WWC Check → Compliance Checks
+  - First Aid Certificate → First Aid & Safety (expiry 2027-07-20)
+  - CPR Certificate → First Aid & Safety (expiry 2026-07-20 — correctly distinguished)
+  - Flu Vaccination Record → Vaccinations
+- Dashboard, sidebar categories, expiry tracking all working correctly
+- Test docs committed to AMBER-Care repo under CARE test docs/
+- Commit: ba5dc7c — pushed to GitHub
+- Outstanding: WWC Check parsing "WWC" into Document Type field instead of card number field — minor, prompt tweak needed
