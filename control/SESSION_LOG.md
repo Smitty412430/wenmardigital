@@ -125,3 +125,10 @@
 - Test docs committed to AMBER-Care repo under CARE test docs/
 - Commit: ba5dc7c — pushed to GitHub
 - Outstanding: WWC Check parsing "WWC" into Document Type field instead of card number field — minor, prompt tweak needed
+
+## 2026-06-24 — AMBER Care Demo + Strategic decisions
+- Fixed On File popup in demo — now correctly explains no-expiry credentials, separate from Snapshot (commit 6ad7e66)
+- Strategic decision: keep AMBER Care as separate product, not folded into Personal or Business
+- Strategic decision: launch as AMBER Care targeting care workers first, broaden to AMBER Worker later once validated
+- Rationale: Personal is overkill for care workers who just need a credential wallet; separate product = separate market, separate price point, separate word-of-mouth channel
+- Future: AMBER Worker concept noted — multiple industry profiles (Care, Trades, Security, Education, Construction) in one app. Build after Care validates.
