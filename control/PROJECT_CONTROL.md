@@ -114,7 +114,7 @@
 - Stability env vars in `~/.zshrc`: `OLLAMA_MAX_LOADED_MODELS=1` and `OLLAMA_NUM_PARALLEL=1`
 - Restart command: `pkill -f ollama && sleep 2 && ollama serve &`
 - Version Gist: `https://gist.github.com/Smitty412430/41c07724a7764e855d4b388d57c9341b`
-- **Latest stable as of 2026-06-21: v0.30.8 — holding at v0.30.4, no change.**
+- **Latest stable as of 2026-06-23: v0.30.10 — holding at v0.30.4, no change.**
 
 ---
 
