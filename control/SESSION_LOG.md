@@ -132,3 +132,15 @@
 - Strategic decision: launch as AMBER Care targeting care workers first, broaden to AMBER Worker later once validated
 - Rationale: Personal is overkill for care workers who just need a credential wallet; separate product = separate market, separate price point, separate word-of-mouth channel
 - Future: AMBER Worker concept noted — multiple industry profiles (Care, Trades, Security, Education, Construction) in one app. Build after Care validates.
+
+## 2026-06-28 — ALL PRODUCTS — Ollama setup, Windows build, icons
+- Built new OllamaSetup.js for all three products — in-app model pull, no terminal required
+- Business: pulls llama3:latest only. Personal + Care: pulls llama3:latest + llava:13b
+- Fixed \n split bug in OllamaSetup streaming parser
+- Added icon.ico to all three products for Windows installer branding
+- Rebuilt AMBER Business Windows installer: dist/AMBER Business Setup 1.1.0.exe
+- Fixed git global author identity — was showing Marks-Laptop.local on every commit
+- Commits: Business d0e9e8c, Personal f2b516d, Care ef5c6c4
+- Ready for Wendy install test via USB
+- Outstanding: test OllamaSetup screen on Wendy's PC — verify model pull works without terminal
+- Also outstanding: update PROJECT_CONTROL.md to add AMBER Care as active project
